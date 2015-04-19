@@ -13,7 +13,7 @@
  */
 
 .bare-grid {
-	margin-left: -1em;
+	margin-left: -1.5em;
 }
 
 	.bare-grid:after {
@@ -24,7 +24,7 @@
 
 	.bare-grid__item {
 		float: left;
-		padding-left: 1em;
+		padding-left: 1.5em;
 		-webkit-box-sizing: border-box;
 		   -moz-box-sizing: border-box;
 		        box-sizing: border-box;
