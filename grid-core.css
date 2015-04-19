@@ -1,0 +1,31 @@
+/* 
+   #grid
+   ========================================================================== */
+
+/**
+ * The grid object arranges content using page proportions.
+ *
+ * <div class="bare-grid">
+ *     <div class="bare-grid__item"></div>
+ *     <div class="bare-grid__item"></div>
+ *     <div class="bare-grid__item"></div>
+ * </div>
+ */
+
+.bare-grid {
+	margin-left: -1em;
+}
+
+	.bare-grid:after {
+		clear: both;
+		content: "";
+		display: table;
+	}
+
+	.bare-grid__item {
+		float: left;
+		padding-left: 1em;
+		-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+		        box-sizing: border-box;
+	}

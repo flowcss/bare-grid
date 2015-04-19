@@ -1,0 +1,20 @@
+{
+  "name": "bare-grid",
+  "version": "0.1.0",
+  "authors": [
+    "Eric-Harms <barefoot.css@gmail.com>"
+  ],
+  "description": "The grid object arranges content using page proportions.",
+  "main": "grid-core.css",
+  "keywords": [
+    "Css"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
